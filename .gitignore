@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+*/bin/*
+*/obj/*
+/Code/AlglibCSharpLib/bin/Debug
+/Code/.vs/Heston/v15
+/Code/AlglibCSharpLib/obj
+/Code/HestonModel/bin/Debug
+/Code/HestonModel/obj/Debug
+/Code/HestonModel/obj/Release
+/Code/HestonModel.Tests/bin/Debug
+/Code/HestonModel.Tests/obj/Debug
+/Code/HestonModel.Tests/obj/Release
