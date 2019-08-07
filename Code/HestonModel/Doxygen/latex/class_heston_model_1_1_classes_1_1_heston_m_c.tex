@@ -1,0 +1,89 @@
+\hypertarget{class_heston_model_1_1_classes_1_1_heston_m_c}{}\section{Heston\+Model.\+Classes.\+Heston\+MC Class Reference}
+\label{class_heston_model_1_1_classes_1_1_heston_m_c}\index{Heston\+Model.\+Classes.\+Heston\+MC@{Heston\+Model.\+Classes.\+Heston\+MC}}
+
+
+Class to represent an option which is priced using Monte Carlo method in Heston model that . This class inherits the Heston\+Option class and the I\+Monte\+Carlo\+Settings interface.  
+
+
+Inheritance diagram for Heston\+Model.\+Classes.\+Heston\+MC\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.443281cm]{class_heston_model_1_1_classes_1_1_heston_m_c}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_heston_model_1_1_classes_1_1_heston_m_c_ad9ec790e8dddcfd8bdc4c05e8c8a913b}{Heston\+MC}} (\mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters}{Heston\+Model\+Parameters}} parameters, \mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_monte_carlo_settings}{Monte\+Carlo\+Settings}} monte\+Carlo\+Simulation\+Settings, double Maturity)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of Heston MC class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{class_heston_model_1_1_classes_1_1_heston_m_c_a726e96a32d76424524bb5bfda783e356}{Gen\+Paths}} (Func$<$ double\mbox{[}$\,$\mbox{]}, double $>$ payoff\+Func, int workers)
+\begin{DoxyCompactList}\small\item\em Gens the paths. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_heston_model_1_1_classes_1_1_heston_m_c_a297d32b5b9a24ef161c112d6e2d8b0b6}\label{class_heston_model_1_1_classes_1_1_heston_m_c_a297d32b5b9a24ef161c112d6e2d8b0b6}} 
+int {\bfseries Number\+Of\+Trials}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_heston_model_1_1_classes_1_1_heston_m_c_a65227cc24653c68cba13235c8f6888ca}\label{class_heston_model_1_1_classes_1_1_heston_m_c_a65227cc24653c68cba13235c8f6888ca}} 
+int {\bfseries Number\+Of\+Time\+Steps}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_heston_model_1_1_classes_1_1_heston_m_c_ac34d04390c29f55e8e2119fecb55619e}\label{class_heston_model_1_1_classes_1_1_heston_m_c_ac34d04390c29f55e8e2119fecb55619e}} 
+double {\bfseries Maturity}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Class to represent an option which is priced using Monte Carlo method in Heston model that . This class inherits the Heston\+Option class and the I\+Monte\+Carlo\+Settings interface. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_heston_model_1_1_classes_1_1_heston_m_c_ad9ec790e8dddcfd8bdc4c05e8c8a913b}\label{class_heston_model_1_1_classes_1_1_heston_m_c_ad9ec790e8dddcfd8bdc4c05e8c8a913b}} 
+\index{Heston\+Model\+::\+Classes\+::\+Heston\+MC@{Heston\+Model\+::\+Classes\+::\+Heston\+MC}!Heston\+MC@{Heston\+MC}}
+\index{Heston\+MC@{Heston\+MC}!Heston\+Model\+::\+Classes\+::\+Heston\+MC@{Heston\+Model\+::\+Classes\+::\+Heston\+MC}}
+\subsubsection{\texorpdfstring{Heston\+M\+C()}{HestonMC()}}
+{\footnotesize\ttfamily Heston\+Model.\+Classes.\+Heston\+M\+C.\+Heston\+MC (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters}{Heston\+Model\+Parameters}}}]{parameters,  }\item[{\mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_monte_carlo_settings}{Monte\+Carlo\+Settings}}}]{monte\+Carlo\+Simulation\+Settings,  }\item[{double}]{Maturity }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initializes a new instance of Heston MC class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parameters} & Interface holding Heston Model params.\\
+\hline
+{\em monte\+Carlo\+Simulation\+Settings} & Interface holding Monte carlo simulation settings.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_heston_model_1_1_classes_1_1_heston_m_c_a726e96a32d76424524bb5bfda783e356}\label{class_heston_model_1_1_classes_1_1_heston_m_c_a726e96a32d76424524bb5bfda783e356}} 
+\index{Heston\+Model\+::\+Classes\+::\+Heston\+MC@{Heston\+Model\+::\+Classes\+::\+Heston\+MC}!Gen\+Paths@{Gen\+Paths}}
+\index{Gen\+Paths@{Gen\+Paths}!Heston\+Model\+::\+Classes\+::\+Heston\+MC@{Heston\+Model\+::\+Classes\+::\+Heston\+MC}}
+\subsubsection{\texorpdfstring{Gen\+Paths()}{GenPaths()}}
+{\footnotesize\ttfamily double Heston\+Model.\+Classes.\+Heston\+M\+C.\+Gen\+Paths (\begin{DoxyParamCaption}\item[{Func$<$ double\mbox{[}$\,$\mbox{]}, double $>$}]{payoff\+Func,  }\item[{int}]{workers }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+
+
+Gens the paths. 
+
+\begin{DoxyReturn}{Returns}
+Initializes and launches the threads to produce the Monte Carlo paths.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em payoff\+Func} & Payoff function.\\
+\hline
+{\em workers} & Number of threads.\\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/mylo/\+Projects/\+O\+O\+P\+A/final-\/project-\/mylonakk/\+Code/\+Heston\+Model/\+Classes/Heston\+M\+C.\+cs\end{DoxyCompactItemize}

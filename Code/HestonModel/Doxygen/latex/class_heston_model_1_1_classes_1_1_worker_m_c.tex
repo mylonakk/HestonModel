@@ -1,0 +1,70 @@
+\hypertarget{class_heston_model_1_1_classes_1_1_worker_m_c}{}\section{Heston\+Model.\+Classes.\+Worker\+MC Class Reference}
+\label{class_heston_model_1_1_classes_1_1_worker_m_c}\index{Heston\+Model.\+Classes.\+Worker\+MC@{Heston\+Model.\+Classes.\+Worker\+MC}}
+
+
+Class that implements a tread with state used in the parallel Monte Carlo.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_heston_model_1_1_classes_1_1_worker_m_c_a7023d8d3a3651613e3d8e50d5e30ccbc}\label{class_heston_model_1_1_classes_1_1_worker_m_c_a7023d8d3a3651613e3d8e50d5e30ccbc}} 
+double {\bfseries get\+Sum} ()
+\item 
+\mbox{\hyperlink{class_heston_model_1_1_classes_1_1_worker_m_c_a6ec8fc06286f888afa631bb4fdf83faf}{Worker\+MC}} (int Number\+Of\+Trials, int Number\+Of\+Time\+Steps, Func$<$ double\mbox{[}$\,$\mbox{]}, double $>$ payoff\+Func, \mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_variance_process_parameters}{Variance\+Process\+Parameters}} Variance\+Parameters, double Maturity, double Initial\+Stock\+Price, double Risk\+Free\+Rate)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the T\+:\+Heston\+Model.\+Classes.\+Worker\+MC class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_heston_model_1_1_classes_1_1_worker_m_c_a652df25340bf5f45727b3690e7c49c06}{Thread\+Gen\+Paths}} ()
+\begin{DoxyCompactList}\small\item\em Generates paths for the Monte Carlo simulation depending on the state of the thread. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class that implements a tread with state used in the parallel Monte Carlo. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_heston_model_1_1_classes_1_1_worker_m_c_a6ec8fc06286f888afa631bb4fdf83faf}\label{class_heston_model_1_1_classes_1_1_worker_m_c_a6ec8fc06286f888afa631bb4fdf83faf}} 
+\index{Heston\+Model\+::\+Classes\+::\+Worker\+MC@{Heston\+Model\+::\+Classes\+::\+Worker\+MC}!Worker\+MC@{Worker\+MC}}
+\index{Worker\+MC@{Worker\+MC}!Heston\+Model\+::\+Classes\+::\+Worker\+MC@{Heston\+Model\+::\+Classes\+::\+Worker\+MC}}
+\subsubsection{\texorpdfstring{Worker\+M\+C()}{WorkerMC()}}
+{\footnotesize\ttfamily Heston\+Model.\+Classes.\+Worker\+M\+C.\+Worker\+MC (\begin{DoxyParamCaption}\item[{int}]{Number\+Of\+Trials,  }\item[{int}]{Number\+Of\+Time\+Steps,  }\item[{Func$<$ double\mbox{[}$\,$\mbox{]}, double $>$}]{payoff\+Func,  }\item[{\mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_variance_process_parameters}{Variance\+Process\+Parameters}}}]{Variance\+Parameters,  }\item[{double}]{Maturity,  }\item[{double}]{Initial\+Stock\+Price,  }\item[{double}]{Risk\+Free\+Rate }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initializes a new instance of the T\+:\+Heston\+Model.\+Classes.\+Worker\+MC class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Number\+Of\+Trials} & Number of trials.\\
+\hline
+{\em Number\+Of\+Time\+Steps} & Number of time steps.\\
+\hline
+{\em payoff\+Func} & Payoff function.\\
+\hline
+{\em Variance\+Parameters} & Variance parameters.\\
+\hline
+{\em Maturity} & Maturity.\\
+\hline
+{\em Initial\+Stock\+Price} & Initial stock price.\\
+\hline
+{\em Risk\+Free\+Rate} & Risk free rate.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_heston_model_1_1_classes_1_1_worker_m_c_a652df25340bf5f45727b3690e7c49c06}\label{class_heston_model_1_1_classes_1_1_worker_m_c_a652df25340bf5f45727b3690e7c49c06}} 
+\index{Heston\+Model\+::\+Classes\+::\+Worker\+MC@{Heston\+Model\+::\+Classes\+::\+Worker\+MC}!Thread\+Gen\+Paths@{Thread\+Gen\+Paths}}
+\index{Thread\+Gen\+Paths@{Thread\+Gen\+Paths}!Heston\+Model\+::\+Classes\+::\+Worker\+MC@{Heston\+Model\+::\+Classes\+::\+Worker\+MC}}
+\subsubsection{\texorpdfstring{Thread\+Gen\+Paths()}{ThreadGenPaths()}}
+{\footnotesize\ttfamily void Heston\+Model.\+Classes.\+Worker\+M\+C.\+Thread\+Gen\+Paths (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Generates paths for the Monte Carlo simulation depending on the state of the thread. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/mylo/\+Projects/\+O\+O\+P\+A/final-\/project-\/mylonakk/\+Code/\+Heston\+Model/\+Classes/Heston\+M\+C.\+cs\end{DoxyCompactItemize}

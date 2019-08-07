@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{42A59508-E782-4C08-AD81-2C46097EF92E}|Default">
+  <MonoDevelop.Ide.ItemProperties.HestonModel.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HestonModel/Interfaces/IAsianOption.cs">
+    <Files>
+      <File FileName="HestonModel/Classes/EuropeanOptionMC.cs" Line="50" Column="45" />
+      <File FileName="HestonCmdLine/Program.cs" Line="41" Column="15" />
+      <File FileName="HestonModel/Classes/InterfaceClasses/VarianceProcessParameters.cs" Line="83" Column="1" />
+      <File FileName="HestonModel/Heston.cs" Line="115" Column="99" />
+      <File FileName="HestonModel/Classes/InterfaceClasses/HestonModelParameters.cs" Line="49" Column="1" />
+      <File FileName="HestonModel/Classes/InterfaceClasses/EuropeanOption.cs" Line="7" Column="53" />
+      <File FileName="HestonModel/Classes/InterfaceClasses/Option.cs" Line="7" Column="45" />
+      <File FileName="HestonModel/Interfaces/IAsianOption.cs" Line="10" Column="1" />
+      <File FileName="HestonModel/Classes/HestonCalibrator.cs" Line="26" Column="58" NotebookId="1" />
+      <File FileName="HestonModel/Classes/HestonMC.cs" Line="168" Column="53" NotebookId="1" />
+      <File FileName="HestonModel/Classes/LookbackOptionMC.cs" Line="50" Column="52" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.HestonCmdLine PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

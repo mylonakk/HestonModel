@@ -1,0 +1,95 @@
+\hypertarget{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters}{}\section{Heston\+Model.\+Classes.\+Interface\+Classes.\+Heston\+Model\+Parameters Class Reference}
+\label{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters}\index{Heston\+Model.\+Classes.\+Interface\+Classes.\+Heston\+Model\+Parameters@{Heston\+Model.\+Classes.\+Interface\+Classes.\+Heston\+Model\+Parameters}}
+
+
+Base class that represents an option in Heston Model.  
+
+
+Inheritance diagram for Heston\+Model.\+Classes.\+Interface\+Classes.\+Heston\+Model\+Parameters\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.443281cm]{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters_a7221ed3a66dd76115e0cfef2a89b48a4}\label{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters_a7221ed3a66dd76115e0cfef2a89b48a4}} 
+\mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_variance_process_parameters}{Variance\+Process\+Parameters}} {\bfseries Get\+Variance} ()
+\item 
+\mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters_ae0c1de67a5daaadedaab839afc01493b}{Heston\+Model\+Parameters}} (double Initial\+Stock\+Price, double Risk\+Free\+Rate, \mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_variance_process_parameters}{Variance\+Process\+Parameters}} Variance\+Parameters)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the Heston \mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_option}{Option}} \end{DoxyCompactList}\item 
+double \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters_a57292eac146d8d3309bcad9f44ca0027}{Calibration\+Params\+To\+Array}} ()
+\begin{DoxyCompactList}\small\item\em Returns double array, which each element represents a different model parameter. Order\+: kappa, theta, sigma, rho, v0 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters_acd72de34a775459496260c669b89b098}\label{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters_acd72de34a775459496260c669b89b098}} 
+double {\bfseries \+\_\+\+Initial\+Stock\+Price}
+\item 
+\mbox{\Hypertarget{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters_aa56f1e0a7dac25a5accc4d4fa63c9b29}\label{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters_aa56f1e0a7dac25a5accc4d4fa63c9b29}} 
+double {\bfseries \+\_\+\+Risk\+Free\+Rate}
+\item 
+\mbox{\Hypertarget{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters_ac92a2a4d5a1ed93d4c15a5fb50174be5}\label{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters_ac92a2a4d5a1ed93d4c15a5fb50174be5}} 
+\mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_variance_process_parameters}{Variance\+Process\+Parameters}} {\bfseries \+\_\+\+Variance\+Parameters}
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters_a833d6e10d1b70ab14a5c81b98f063fcf}\label{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters_a833d6e10d1b70ab14a5c81b98f063fcf}} 
+\mbox{\hyperlink{interface_heston_model_1_1_interfaces_1_1_i_variance_process_parameters}{I\+Variance\+Process\+Parameters}} {\bfseries Variance\+Parameters}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters_a367832bc3e0f879d8c488d51b329ff5a}\label{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters_a367832bc3e0f879d8c488d51b329ff5a}} 
+double {\bfseries Initial\+Stock\+Price}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters_acefbd2f81b89683359043fd715d62c32}\label{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters_acefbd2f81b89683359043fd715d62c32}} 
+double {\bfseries Risk\+Free\+Rate}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Base class that represents an option in Heston Model. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters_ae0c1de67a5daaadedaab839afc01493b}\label{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters_ae0c1de67a5daaadedaab839afc01493b}} 
+\index{Heston\+Model\+::\+Classes\+::\+Interface\+Classes\+::\+Heston\+Model\+Parameters@{Heston\+Model\+::\+Classes\+::\+Interface\+Classes\+::\+Heston\+Model\+Parameters}!Heston\+Model\+Parameters@{Heston\+Model\+Parameters}}
+\index{Heston\+Model\+Parameters@{Heston\+Model\+Parameters}!Heston\+Model\+::\+Classes\+::\+Interface\+Classes\+::\+Heston\+Model\+Parameters@{Heston\+Model\+::\+Classes\+::\+Interface\+Classes\+::\+Heston\+Model\+Parameters}}
+\subsubsection{\texorpdfstring{Heston\+Model\+Parameters()}{HestonModelParameters()}}
+{\footnotesize\ttfamily Heston\+Model.\+Classes.\+Interface\+Classes.\+Heston\+Model\+Parameters.\+Heston\+Model\+Parameters (\begin{DoxyParamCaption}\item[{double}]{Initial\+Stock\+Price,  }\item[{double}]{Risk\+Free\+Rate,  }\item[{\mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_variance_process_parameters}{Variance\+Process\+Parameters}}}]{Variance\+Parameters }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initializes a new instance of the Heston \mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_option}{Option}} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Initial\+Stock\+Price} & Initial stock price.\\
+\hline
+{\em Risk\+Free\+Rate} & Risk free rate.\\
+\hline
+{\em Variance\+Parameters} & Variance parameters.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters_a57292eac146d8d3309bcad9f44ca0027}\label{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters_a57292eac146d8d3309bcad9f44ca0027}} 
+\index{Heston\+Model\+::\+Classes\+::\+Interface\+Classes\+::\+Heston\+Model\+Parameters@{Heston\+Model\+::\+Classes\+::\+Interface\+Classes\+::\+Heston\+Model\+Parameters}!Calibration\+Params\+To\+Array@{Calibration\+Params\+To\+Array}}
+\index{Calibration\+Params\+To\+Array@{Calibration\+Params\+To\+Array}!Heston\+Model\+::\+Classes\+::\+Interface\+Classes\+::\+Heston\+Model\+Parameters@{Heston\+Model\+::\+Classes\+::\+Interface\+Classes\+::\+Heston\+Model\+Parameters}}
+\subsubsection{\texorpdfstring{Calibration\+Params\+To\+Array()}{CalibrationParamsToArray()}}
+{\footnotesize\ttfamily double \mbox{[}$\,$\mbox{]} Heston\+Model.\+Classes.\+Interface\+Classes.\+Heston\+Model\+Parameters.\+Calibration\+Params\+To\+Array (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns double array, which each element represents a different model parameter. Order\+: kappa, theta, sigma, rho, v0 
+
+\begin{DoxyReturn}{Returns}
+The parameters to array.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/mylo/\+Projects/\+O\+O\+P\+A/final-\/project-\/mylonakk/\+Code/\+Heston\+Model/\+Classes/\+Interface\+Classes/Heston\+Model\+Parameters.\+cs\end{DoxyCompactItemize}

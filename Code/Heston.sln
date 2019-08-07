@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HestonModel", "HestonModel\HestonModel.csproj", "{F71ADE90-705B-4BA1-9144-097A65A45371}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlglibCSharpLib", "AlglibCSharpLib\AlglibCSharpLib.csproj", "{13D4EE49-7122-4A45-B4A4-FCF70AF15A3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HestonModel.Tests", "HestonModel.Tests\HestonModel.Tests.csproj", "{1A41D57F-B2DE-4DA8-A044-4B9AE59B294A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HestonCmdLine", "HestonCmdLine\HestonCmdLine.csproj", "{42A59508-E782-4C08-AD81-2C46097EF92E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F71ADE90-705B-4BA1-9144-097A65A45371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F71ADE90-705B-4BA1-9144-097A65A45371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F71ADE90-705B-4BA1-9144-097A65A45371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F71ADE90-705B-4BA1-9144-097A65A45371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13D4EE49-7122-4A45-B4A4-FCF70AF15A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D4EE49-7122-4A45-B4A4-FCF70AF15A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D4EE49-7122-4A45-B4A4-FCF70AF15A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D4EE49-7122-4A45-B4A4-FCF70AF15A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A41D57F-B2DE-4DA8-A044-4B9AE59B294A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A41D57F-B2DE-4DA8-A044-4B9AE59B294A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A41D57F-B2DE-4DA8-A044-4B9AE59B294A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A41D57F-B2DE-4DA8-A044-4B9AE59B294A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42A59508-E782-4C08-AD81-2C46097EF92E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A59508-E782-4C08-AD81-2C46097EF92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A59508-E782-4C08-AD81-2C46097EF92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A59508-E782-4C08-AD81-2C46097EF92E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72C32605-D197-49B1-9855-CE5A701C0C84}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

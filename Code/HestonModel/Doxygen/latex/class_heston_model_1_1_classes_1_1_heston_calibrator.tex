@@ -1,0 +1,165 @@
+\hypertarget{class_heston_model_1_1_classes_1_1_heston_calibrator}{}\section{Heston\+Model.\+Classes.\+Heston\+Calibrator Class Reference}
+\label{class_heston_model_1_1_classes_1_1_heston_calibrator}\index{Heston\+Model.\+Classes.\+Heston\+Calibrator@{Heston\+Model.\+Classes.\+Heston\+Calibrator}}
+
+
+Class implementing a calibrator for Heston Model.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_heston_model_1_1_classes_1_1_heston_calibrator_af0e3e9c779449c4e1631e84879f06459}{Heston\+Calibrator}} ()
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \mbox{\hyperlink{class_heston_model_1_1_classes_1_1_heston_calibrator}{Heston\+Calibrator}} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_heston_model_1_1_classes_1_1_heston_calibrator_a29fda277662e02cf344c6fbb2814c4df}{Heston\+Calibrator}} (\mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters}{Heston\+Model\+Parameters}} parameters, Linked\+List$<$ \mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_option_market_data}{Option\+Market\+Data}}$<$ \mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_european_option}{European\+Option}} $>$$>$ market\+Options, \mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_calibration_settings}{Calibration\+Settings}} calibration\+Settings)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \mbox{\hyperlink{class_heston_model_1_1_classes_1_1_heston_calibrator}{Heston\+Calibrator}} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_heston_model_1_1_classes_1_1_heston_calibrator_af01c864f0fe8c4ea07569c53913b173e}{Add\+Observed\+Option}} (\mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_european_option}{European\+Option}} eu\+Option, double price)
+\begin{DoxyCompactList}\small\item\em Add new market data. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_heston_model_1_1_classes_1_1_heston_calibrator_afca545010ed5da3e1ba13cccb3cf5adb}{Calc\+Mean\+Square\+Error\+Between\+Model\+And\+Market}} (\mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters}{Heston\+Model\+Parameters}} m)
+\begin{DoxyCompactList}\small\item\em Calculates the mean square error between model and market. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_heston_model_1_1_classes_1_1_heston_calibrator_a750114dc46d7bcad66fae9489ce3f17f}{Calibration\+Objective\+Function}} (double\mbox{[}$\,$\mbox{]} params\+Array, ref double func, object obj)
+\begin{DoxyCompactList}\small\item\em Calibrations the objective function. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_heston_model_1_1_classes_1_1_heston_calibrator_aeb8e65eaffc233783c7a7172d91b0d94}{Calibrate}} ()
+\begin{DoxyCompactList}\small\item\em Calibration process. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_heston_model_1_1_classes_1_1_heston_calibrator_af4e3c44fb48e6677e799a693e5fe9eb7}{Get\+Calibration\+Status}} (ref Calibration\+Outcome calib\+Outcome, ref double pricing\+Error)
+\begin{DoxyCompactList}\small\item\em Gets the calibration status. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters}{Heston\+Model\+Parameters}} \mbox{\hyperlink{class_heston_model_1_1_classes_1_1_heston_calibrator_a1567cabf884bc1355db9de06bb06c05d}{Get\+Calibrated\+Model}} ()
+\begin{DoxyCompactList}\small\item\em Gets the calibrated model. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class implementing a calibrator for Heston Model. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_heston_model_1_1_classes_1_1_heston_calibrator_af0e3e9c779449c4e1631e84879f06459}\label{class_heston_model_1_1_classes_1_1_heston_calibrator_af0e3e9c779449c4e1631e84879f06459}} 
+\index{Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator@{Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator}!Heston\+Calibrator@{Heston\+Calibrator}}
+\index{Heston\+Calibrator@{Heston\+Calibrator}!Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator@{Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator}}
+\subsubsection{\texorpdfstring{Heston\+Calibrator()}{HestonCalibrator()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Heston\+Model.\+Classes.\+Heston\+Calibrator.\+Heston\+Calibrator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initializes a new instance of the \mbox{\hyperlink{class_heston_model_1_1_classes_1_1_heston_calibrator}{Heston\+Calibrator}} class. 
+
+\mbox{\Hypertarget{class_heston_model_1_1_classes_1_1_heston_calibrator_a29fda277662e02cf344c6fbb2814c4df}\label{class_heston_model_1_1_classes_1_1_heston_calibrator_a29fda277662e02cf344c6fbb2814c4df}} 
+\index{Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator@{Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator}!Heston\+Calibrator@{Heston\+Calibrator}}
+\index{Heston\+Calibrator@{Heston\+Calibrator}!Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator@{Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator}}
+\subsubsection{\texorpdfstring{Heston\+Calibrator()}{HestonCalibrator()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Heston\+Model.\+Classes.\+Heston\+Calibrator.\+Heston\+Calibrator (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters}{Heston\+Model\+Parameters}}}]{parameters,  }\item[{Linked\+List$<$ \mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_option_market_data}{Option\+Market\+Data}}$<$ \mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_european_option}{European\+Option}} $>$$>$}]{market\+Options,  }\item[{\mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_calibration_settings}{Calibration\+Settings}}}]{calibration\+Settings }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initializes a new instance of the \mbox{\hyperlink{class_heston_model_1_1_classes_1_1_heston_calibrator}{Heston\+Calibrator}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parameters} & Heston Model Parameters\\
+\hline
+{\em market\+Options} & Observed Option prices\\
+\hline
+{\em calibration\+Settings} & Calibration settings\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_heston_model_1_1_classes_1_1_heston_calibrator_af01c864f0fe8c4ea07569c53913b173e}\label{class_heston_model_1_1_classes_1_1_heston_calibrator_af01c864f0fe8c4ea07569c53913b173e}} 
+\index{Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator@{Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator}!Add\+Observed\+Option@{Add\+Observed\+Option}}
+\index{Add\+Observed\+Option@{Add\+Observed\+Option}!Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator@{Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator}}
+\subsubsection{\texorpdfstring{Add\+Observed\+Option()}{AddObservedOption()}}
+{\footnotesize\ttfamily void Heston\+Model.\+Classes.\+Heston\+Calibrator.\+Add\+Observed\+Option (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_european_option}{European\+Option}}}]{eu\+Option,  }\item[{double}]{price }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Add new market data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em eu\+Option} & European option.\\
+\hline
+{\em price} & European option Price\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_heston_model_1_1_classes_1_1_heston_calibrator_afca545010ed5da3e1ba13cccb3cf5adb}\label{class_heston_model_1_1_classes_1_1_heston_calibrator_afca545010ed5da3e1ba13cccb3cf5adb}} 
+\index{Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator@{Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator}!Calc\+Mean\+Square\+Error\+Between\+Model\+And\+Market@{Calc\+Mean\+Square\+Error\+Between\+Model\+And\+Market}}
+\index{Calc\+Mean\+Square\+Error\+Between\+Model\+And\+Market@{Calc\+Mean\+Square\+Error\+Between\+Model\+And\+Market}!Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator@{Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator}}
+\subsubsection{\texorpdfstring{Calc\+Mean\+Square\+Error\+Between\+Model\+And\+Market()}{CalcMeanSquareErrorBetweenModelAndMarket()}}
+{\footnotesize\ttfamily double Heston\+Model.\+Classes.\+Heston\+Calibrator.\+Calc\+Mean\+Square\+Error\+Between\+Model\+And\+Market (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters}{Heston\+Model\+Parameters}}}]{m }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Calculates the mean square error between model and market. 
+
+\begin{DoxyReturn}{Returns}
+The mean square error between model and market.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em m} & Current heston parameters\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_heston_model_1_1_classes_1_1_heston_calibrator_aeb8e65eaffc233783c7a7172d91b0d94}\label{class_heston_model_1_1_classes_1_1_heston_calibrator_aeb8e65eaffc233783c7a7172d91b0d94}} 
+\index{Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator@{Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator}!Calibrate@{Calibrate}}
+\index{Calibrate@{Calibrate}!Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator@{Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator}}
+\subsubsection{\texorpdfstring{Calibrate()}{Calibrate()}}
+{\footnotesize\ttfamily void Heston\+Model.\+Classes.\+Heston\+Calibrator.\+Calibrate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Calibration process. 
+
+\mbox{\Hypertarget{class_heston_model_1_1_classes_1_1_heston_calibrator_a750114dc46d7bcad66fae9489ce3f17f}\label{class_heston_model_1_1_classes_1_1_heston_calibrator_a750114dc46d7bcad66fae9489ce3f17f}} 
+\index{Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator@{Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator}!Calibration\+Objective\+Function@{Calibration\+Objective\+Function}}
+\index{Calibration\+Objective\+Function@{Calibration\+Objective\+Function}!Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator@{Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator}}
+\subsubsection{\texorpdfstring{Calibration\+Objective\+Function()}{CalibrationObjectiveFunction()}}
+{\footnotesize\ttfamily void Heston\+Model.\+Classes.\+Heston\+Calibrator.\+Calibration\+Objective\+Function (\begin{DoxyParamCaption}\item[{double \mbox{[}$\,$\mbox{]}}]{params\+Array,  }\item[{ref double}]{func,  }\item[{object}]{obj }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Calibrations the objective function. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em params\+Array} & Parameters array.\\
+\hline
+{\em func} & Objective Funtion.\\
+\hline
+{\em obj} & Object.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_heston_model_1_1_classes_1_1_heston_calibrator_a1567cabf884bc1355db9de06bb06c05d}\label{class_heston_model_1_1_classes_1_1_heston_calibrator_a1567cabf884bc1355db9de06bb06c05d}} 
+\index{Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator@{Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator}!Get\+Calibrated\+Model@{Get\+Calibrated\+Model}}
+\index{Get\+Calibrated\+Model@{Get\+Calibrated\+Model}!Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator@{Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator}}
+\subsubsection{\texorpdfstring{Get\+Calibrated\+Model()}{GetCalibratedModel()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_heston_model_1_1_classes_1_1_interface_classes_1_1_heston_model_parameters}{Heston\+Model\+Parameters}} Heston\+Model.\+Classes.\+Heston\+Calibrator.\+Get\+Calibrated\+Model (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the calibrated model. 
+
+\begin{DoxyReturn}{Returns}
+The calibrated model.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_heston_model_1_1_classes_1_1_heston_calibrator_af4e3c44fb48e6677e799a693e5fe9eb7}\label{class_heston_model_1_1_classes_1_1_heston_calibrator_af4e3c44fb48e6677e799a693e5fe9eb7}} 
+\index{Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator@{Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator}!Get\+Calibration\+Status@{Get\+Calibration\+Status}}
+\index{Get\+Calibration\+Status@{Get\+Calibration\+Status}!Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator@{Heston\+Model\+::\+Classes\+::\+Heston\+Calibrator}}
+\subsubsection{\texorpdfstring{Get\+Calibration\+Status()}{GetCalibrationStatus()}}
+{\footnotesize\ttfamily void Heston\+Model.\+Classes.\+Heston\+Calibrator.\+Get\+Calibration\+Status (\begin{DoxyParamCaption}\item[{ref Calibration\+Outcome}]{calib\+Outcome,  }\item[{ref double}]{pricing\+Error }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the calibration status. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em calib\+Outcome} & Calibration outcome.\\
+\hline
+{\em pricing\+Error} & Pricing error.\\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/mylo/\+Projects/\+O\+O\+P\+A/final-\/project-\/mylonakk/\+Code/\+Heston\+Model/\+Classes/Heston\+Calibrator.\+cs\end{DoxyCompactItemize}
